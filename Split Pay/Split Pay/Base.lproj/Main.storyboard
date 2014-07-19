@@ -20,25 +20,34 @@
                                 <rect key="frame" x="20" y="341" width="280" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Login with Facebook">
+                                <state key="normal" title="Sign up with Facebook">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="facebookButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qDf-tQ-xTI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SQq-HS-tKY">
                                 <rect key="frame" x="20" y="389" width="280" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Login with Google+">
+                                <state key="normal" title="Sign up with Google+">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="googleButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="g1X-cC-hDm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wTG-0E-b0H">
                                 <rect key="frame" x="20" y="437" width="280" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Login with Twitter">
+                                <state key="normal" title="Sign up with Twitter">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="twitterButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3BA-mI-MGW"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KRX-oB-meg">
                                 <rect key="frame" x="60" y="20" width="200" height="200"/>
@@ -51,6 +60,10 @@
                                 <state key="normal" title="Sign up">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="signUpButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3Db-5v-JZt"/>
+                                    <segue destination="KpS-Wi-Ffs" kind="modal" id="E2I-cw-OY1"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email address" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WmC-Ig-NGU">
                                 <rect key="frame" x="20" y="249" width="280" height="30"/>
@@ -73,15 +86,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="WmC-Ig-NGU" id="snG-YI-QDC"/>
+                        <outlet property="passwordTextField" destination="Xvm-OJ-wlD" id="y13-RB-sPD"/>
+                        <segue destination="nsC-Ph-p8k" kind="modal" identifier="toFTGsignup" id="uR7-Sx-U7J"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="347" y="51"/>
         </scene>
-        <!--View Controller-->
+        <!--Signup View Controller-->
         <scene sceneID="CbR-Dg-rVD">
             <objects>
-                <viewController id="nsC-Ph-p8k" sceneMemberID="viewController">
+                <viewController id="nsC-Ph-p8k" customClass="FTGSignupViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="I8C-aP-WK9"/>
                         <viewControllerLayoutGuide type="bottom" id="CwG-YX-VlZ"/>
@@ -181,6 +199,10 @@
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="backButtonPressed:" destination="nsC-Ph-p8k" eventType="touchUpInside" id="DCU-x1-e0T"/>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" id="FRc-ma-Xyu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kLW-be-7wi">
                                 <rect key="frame" x="268" y="518" width="32" height="30"/>
@@ -188,19 +210,32 @@
                                 <state key="normal" title="Next">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="nextButtonPressed:" destination="nsC-Ph-p8k" eventType="touchUpInside" id="uDn-eo-Mfa"/>
+                                    <segue destination="P8G-Gb-DFB" kind="modal" id="jL0-0l-spW"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="qda-hx-Ttj"/>
+                    <connections>
+                        <outlet property="confirmPasswordTextField" destination="eJR-wo-VrM" id="zbf-nL-tpM"/>
+                        <outlet property="emailTextField" destination="qE7-yY-YD0" id="qpI-KQ-kAi"/>
+                        <outlet property="firstNameTextField" destination="OMZ-1k-cmR" id="YEU-tZ-cSH"/>
+                        <outlet property="lastNameTextField" destination="UYK-oM-PTi" id="l1y-w2-JeF"/>
+                        <outlet property="numberTextField" destination="lFe-xs-zxd" id="Adu-jy-S2k"/>
+                        <outlet property="passwordTextField" destination="Swf-tg-CVO" id="vy9-a3-G3b"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IVp-Yw-Ezh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="732" y="34"/>
+            <point key="canvasLocation" x="776" y="-438"/>
         </scene>
-        <!--View Controller-->
+        <!--Signup View Controller-->
         <scene sceneID="wMm-Vl-j1y">
             <objects>
-                <viewController id="KpS-Wi-Ffs" sceneMemberID="viewController">
+                <viewController id="KpS-Wi-Ffs" customClass="SignupViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NJ8-Ns-upc"/>
                         <viewControllerLayoutGuide type="bottom" id="uFP-V7-fbH"/>
@@ -293,6 +328,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" id="KgM-xR-Ov1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Xs-N6-QYk">
                                 <rect key="frame" x="268" y="518" width="32" height="30"/>
@@ -300,19 +338,31 @@
                                 <state key="normal" title="Next">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="P8G-Gb-DFB" kind="modal" id="t9F-GM-Aev"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="cyH-pm-oDD"/>
+                    <connections>
+                        <outlet property="confirmPasswordTextField" destination="t7l-qj-9XM" id="B8y-bA-ND5"/>
+                        <outlet property="emailTextField" destination="UP9-ac-oCb" id="NUI-os-W8r"/>
+                        <outlet property="firstNameTextField" destination="0H8-RU-mZt" id="ywG-3h-cLV"/>
+                        <outlet property="lastNameTextField" destination="Lm0-aw-HqG" id="xdF-0A-hO4"/>
+                        <outlet property="numberTextField" destination="mr0-Q9-pxv" id="nh6-kk-rI9"/>
+                        <outlet property="passwordTextField" destination="TCL-JM-Ach" id="s7R-hb-KtA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pRS-Gp-yli" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1116" y="45"/>
+            <point key="canvasLocation" x="784" y="321"/>
         </scene>
-        <!--View Controller-->
+        <!--Billing View Controller-->
         <scene sceneID="Eww-E9-fER">
             <objects>
-                <viewController id="P8G-Gb-DFB" sceneMemberID="viewController">
+                <viewController id="P8G-Gb-DFB" customClass="BillingViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pBp-4M-XEj"/>
                         <viewControllerLayoutGuide type="bottom" id="1Ib-vx-5tB"/>
@@ -376,7 +426,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BPw-QQ-kKI">
-                                <rect key="frame" x="105" y="284" width="195" height="30"/>
+                                <rect key="frame" x="105" y="281" width="195" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -399,6 +449,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="KpS-Wi-Ffs" kind="modal" id="dLT-ii-fhy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYo-cH-gbV">
                                 <rect key="frame" x="259" y="518" width="41" height="30"/>
@@ -406,6 +459,9 @@
                                 <state key="normal" title="Finish">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="PwW-5H-8hJ" kind="modal" id="DYv-Yp-kIU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJP-FI-SZo">
                                 <rect key="frame" x="112" y="518" width="96" height="30"/>
@@ -413,19 +469,30 @@
                                 <state key="normal" title="Skip this Step">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="PwW-5H-8hJ" kind="modal" id="WqX-Km-kao"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="cardTypeTextField" destination="BPw-QQ-kKI" id="e86-bz-edJ"/>
+                        <outlet property="creditCardNumberTextField" destination="wOA-9Z-7QL" id="iWG-wQ-QIc"/>
+                        <outlet property="cvv2TextField" destination="0Z4-J8-K2k" id="xh8-3a-hes"/>
+                        <outlet property="expDateMonthTextField" destination="QLP-yi-TlM" id="cyx-24-xWI"/>
+                        <outlet property="expDateYearTextField" destination="bfa-UV-fEW" id="dcM-eR-ZSf"/>
+                        <outlet property="nameTextField" destination="R0h-PB-KdU" id="127-zn-T5X"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KGw-uf-Z8h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1504" y="46"/>
+            <point key="canvasLocation" x="1204" y="30"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="AXD-Jp-VeJ">
             <objects>
-                <viewController id="PwW-5H-8hJ" sceneMemberID="viewController">
+                <viewController id="PwW-5H-8hJ" customClass="ProfileViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9HT-kx-gpl"/>
                         <viewControllerLayoutGuide type="bottom" id="uYw-dk-6JI"/>
@@ -464,12 +531,12 @@
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="690-JD-9fW">
-                                <rect key="frame" x="20" y="220" width="280" height="154"/>
+                                <rect key="frame" x="20" y="250" width="280" height="154"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recent Payments:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bVq-FF-mzi">
-                                <rect key="frame" x="20" y="191" width="280" height="21"/>
+                                <rect key="frame" x="20" y="221" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <nil key="highlightedColor"/>
@@ -485,13 +552,26 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jqY-mx-UzR">
+                                <rect key="frame" x="20" y="160" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Set/Change Profile Picture">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="profilePicButtonPressed:" destination="PwW-5H-8hJ" eventType="touchUpInside" id="3Cr-iD-4ir"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="profilePicture" destination="htN-8m-Tt3" id="X0Y-2o-miM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yeu-Q8-uej" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1878" y="44"/>
+            <point key="canvasLocation" x="1634" y="30"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -499,4 +579,10 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="FRc-ma-Xyu"/>
+        <segue reference="E2I-cw-OY1"/>
+        <segue reference="jL0-0l-spW"/>
+        <segue reference="WqX-Km-kao"/>
+    </inferredMetricsTieBreakers>
 </document>

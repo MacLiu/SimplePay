@@ -10,4 +10,14 @@
 
 @interface ViewController : UIViewController
 
+//IBOutlets
+@property (strong, nonatomic) IBOutlet UITextField *emailTextField;
+@property (strong, nonatomic) IBOutlet UITextField *passwordTextField;
+
+//IBActions
+- (IBAction)facebookButtonPressed:(UIButton *)sender;
+- (IBAction)googleButtonPressed:(UIButton *)sender;
+- (IBAction)twitterButtonPressed:(UIButton *)sender;
+- (IBAction)signUpButtonPressed:(UIButton *)sender;
+
 @end

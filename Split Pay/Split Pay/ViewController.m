@@ -28,4 +28,20 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)facebookButtonPressed:(UIButton *)sender {
+    [self performSegueWithIdentifier:@"toFTGsignup" sender:self];
+}
+
+- (IBAction)googleButtonPressed:(UIButton *)sender {
+    [self performSegueWithIdentifier:@"toFTGsignup" sender:self];
+
+}
+
+- (IBAction)twitterButtonPressed:(UIButton *)sender {
+    [self performSegueWithIdentifier:@"toFTGsignup" sender:self];
+
+}
+
+- (IBAction)signUpButtonPressed:(UIButton *)sender {
+}
 @end

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		294AC6DF197B0799005853C2 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC6DE197B0799005853C2 /* SignupViewController.m */; };
+		294AC6E2197B07B5005853C2 /* FTGSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC6E1197B07B5005853C2 /* FTGSignupViewController.m */; };
+		294AC6E5197B07C2005853C2 /* BillingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC6E4197B07C2005853C2 /* BillingViewController.m */; };
+		294AC6E8197B07D3005853C2 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC6E7197B07D3005853C2 /* ProfileViewController.m */; };
 		29E960EF197ADEED00A756B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E960EE197ADEED00A756B2 /* Foundation.framework */; };
 		29E960F1197ADEED00A756B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E960F0197ADEED00A756B2 /* CoreGraphics.framework */; };
 		29E960F3197ADEED00A756B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E960F2197ADEED00A756B2 /* UIKit.framework */; };
@@ -34,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		294AC6DD197B0799005853C2 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignupViewController.h; path = ../SignupViewController.h; sourceTree = "<group>"; };
+		294AC6DE197B0799005853C2 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignupViewController.m; path = ../SignupViewController.m; sourceTree = "<group>"; };
+		294AC6E0197B07B5005853C2 /* FTGSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGSignupViewController.h; sourceTree = "<group>"; };
+		294AC6E1197B07B5005853C2 /* FTGSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTGSignupViewController.m; sourceTree = "<group>"; };
+		294AC6E3197B07C2005853C2 /* BillingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingViewController.h; sourceTree = "<group>"; };
+		294AC6E4197B07C2005853C2 /* BillingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillingViewController.m; sourceTree = "<group>"; };
+		294AC6E6197B07D3005853C2 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		294AC6E7197B07D3005853C2 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		29E960EB197ADEED00A756B2 /* Split Pay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Split Pay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E960EE197ADEED00A756B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		29E960F0197ADEED00A756B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +129,14 @@
 				29E96100197ADEED00A756B2 /* Main.storyboard */,
 				29E96103197ADEED00A756B2 /* ViewController.h */,
 				29E96104197ADEED00A756B2 /* ViewController.m */,
+				294AC6DD197B0799005853C2 /* SignupViewController.h */,
+				294AC6DE197B0799005853C2 /* SignupViewController.m */,
+				294AC6E0197B07B5005853C2 /* FTGSignupViewController.h */,
+				294AC6E1197B07B5005853C2 /* FTGSignupViewController.m */,
+				294AC6E3197B07C2005853C2 /* BillingViewController.h */,
+				294AC6E4197B07C2005853C2 /* BillingViewController.m */,
+				294AC6E6197B07D3005853C2 /* ProfileViewController.h */,
+				294AC6E7197B07D3005853C2 /* ProfileViewController.m */,
 				29E96106197ADEED00A756B2 /* Images.xcassets */,
 				29E960F5197ADEED00A756B2 /* Supporting Files */,
 			);
@@ -251,6 +271,10 @@
 			files = (
 				29E96105197ADEED00A756B2 /* ViewController.m in Sources */,
 				29E960FF197ADEED00A756B2 /* AppDelegate.m in Sources */,
+				294AC6E5197B07C2005853C2 /* BillingViewController.m in Sources */,
+				294AC6E2197B07B5005853C2 /* FTGSignupViewController.m in Sources */,
+				294AC6E8197B07D3005853C2 /* ProfileViewController.m in Sources */,
+				294AC6DF197B0799005853C2 /* SignupViewController.m in Sources */,
 				29E960FB197ADEED00A756B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
