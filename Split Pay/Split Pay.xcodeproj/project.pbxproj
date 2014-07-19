@@ -456,6 +456,7 @@
 				29E9611F197ADEED00A756B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29E96120197ADEED00A756B2 /* Build configuration list for PBXNativeTarget "Split PayTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +465,7 @@
 				29E96122197ADEED00A756B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
