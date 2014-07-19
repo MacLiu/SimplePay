@@ -830,14 +830,23 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qy2-0q-IWJ">
-                                <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                                <rect key="frame" x="0.0" y="518" width="160" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="gG0-Nd-dsi"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <state key="normal" title="Make Payment">
+                                <state key="normal" title="Make a Bill">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLp-sp-i4H">
+                                <rect key="frame" x="160" y="518" width="160" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="View Pledges">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
@@ -853,7 +862,7 @@
                             <constraint firstItem="NwV-ot-LG9" firstAttribute="leading" secondItem="Hjz-x5-vL1" secondAttribute="leading" id="MmU-DF-sJc"/>
                             <constraint firstItem="Qy2-0q-IWJ" firstAttribute="top" secondItem="kNN-Jm-A6m" secondAttribute="bottom" constant="8" symbolic="YES" id="UB5-Zn-Gud"/>
                             <constraint firstItem="Hjz-x5-vL1" firstAttribute="leading" secondItem="Y3p-U2-MWw" secondAttribute="leading" id="bYG-is-Pvz"/>
-                            <constraint firstItem="Qy2-0q-IWJ" firstAttribute="trailing" secondItem="kNN-Jm-A6m" secondAttribute="trailing" id="fqr-ip-mdt"/>
+                            <constraint firstItem="Qy2-0q-IWJ" firstAttribute="trailing" secondItem="kNN-Jm-A6m" secondAttribute="trailing" constant="-160" id="fqr-ip-mdt"/>
                             <constraint firstItem="Hjz-x5-vL1" firstAttribute="top" secondItem="Y3p-U2-MWw" secondAttribute="top" id="hlp-NQ-f8Z"/>
                             <constraint firstAttribute="trailing" secondItem="kNN-Jm-A6m" secondAttribute="trailing" id="n9f-GO-4c3"/>
                             <constraint firstItem="NwV-ot-LG9" firstAttribute="top" secondItem="Hjz-x5-vL1" secondAttribute="bottom" constant="8" symbolic="YES" id="sPq-1c-D4j"/>
