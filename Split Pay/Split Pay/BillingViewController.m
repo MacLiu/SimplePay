@@ -8,7 +8,7 @@
 
 #import "BillingViewController.h"
 
-@interface BillingViewController ()
+@interface BillingViewController () <UITextFieldDelegate>
 
 @end
 
@@ -27,6 +27,12 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.cardTypeTextField.delegate = self;
+    self.creditCardNumberTextField.delegate = self;
+    self.nameTextField.delegate = self;
+    self.expDateMonthTextField.delegate = self;
+    self.expDateYearTextField.delegate = self;
+    self.cvv2TextField.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning
@@ -48,6 +54,12 @@
 
 - (IBAction)finishButtonPressed:(UIButton *)sender {
     
+}
+
+#pragma mark - UITextfielddelegates
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return NO;
 }
 
 @end

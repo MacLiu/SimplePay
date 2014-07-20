@@ -25,6 +25,10 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    
+    PFUser *currentUser = [PFUser currentUser];
+    self.nameLabel.text = currentUser.username;
+    
     PFFile *file = [[PFUser currentUser] objectForKey:@"profilePic"];
     if (file.url != nil) {
         NSURL *url = [[NSURL alloc] initWithString:file.url];
@@ -84,6 +88,10 @@
 
 
 #pragma mark- IBActions
+
+- (IBAction)logoutButtonPressed:(UIButton *)sender {
+    [PFUser logOut];
+}
 
 - (IBAction)profilePicButtonPressed:(UIButton *)sender {
     self.imagePickerController = [[UIImagePickerController alloc] init];

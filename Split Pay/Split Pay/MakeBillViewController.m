@@ -55,6 +55,7 @@
             if (!error) {
                     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Bill Posted" message:nil delegate:nil cancelButtonTitle:@"Continue" otherButtonTitles: nil];
                     [alert show];
+                [self performSegueWithIdentifier:@"toprofilefrommakebill" sender:self];
             }
         }];
     }
