@@ -18,5 +18,6 @@
 @property (strong, nonatomic) IBOutlet UITextField *confirmPasswordTextField;
 @property (strong, nonatomic) IBOutlet UITextField *numberTextField;
 
+- (IBAction)signupButtonPressed:(UIButton *)sender;
 
 @end

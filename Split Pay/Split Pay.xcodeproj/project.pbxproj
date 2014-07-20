@@ -11,6 +11,80 @@
 		294AC6E2197B07B5005853C2 /* FTGSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC6E1197B07B5005853C2 /* FTGSignupViewController.m */; };
 		294AC6E5197B07C2005853C2 /* BillingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC6E4197B07C2005853C2 /* BillingViewController.m */; };
 		294AC6E8197B07D3005853C2 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC6E7197B07D3005853C2 /* ProfileViewController.m */; };
+		294AC6F3197B2FEA005853C2 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294AC6F2197B2FEA005853C2 /* Accounts.framework */; };
+		294AC6F5197B2FF1005853C2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294AC6F4197B2FF1005853C2 /* AudioToolbox.framework */; };
+		294AC6F7197B2FF8005853C2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294AC6F6197B2FF8005853C2 /* CFNetwork.framework */; };
+		294AC6F9197B3005005853C2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294AC6F8197B3005005853C2 /* CoreLocation.framework */; };
+		294AC6FB197B300C005853C2 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 294AC6FA197B300C005853C2 /* libz.1.1.3.dylib */; };
+		294AC6FD197B3014005853C2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294AC6FC197B3014005853C2 /* MobileCoreServices.framework */; };
+		294AC6FF197B301B005853C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294AC6FE197B301B005853C2 /* QuartzCore.framework */; };
+		294AC701197B3022005853C2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294AC700197B3022005853C2 /* Security.framework */; };
+		294AC703197B302B005853C2 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294AC702197B302B005853C2 /* Social.framework */; };
+		294AC705197B3031005853C2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294AC704197B3031005853C2 /* StoreKit.framework */; };
+		294AC707197B303A005853C2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294AC706197B303A005853C2 /* SystemConfiguration.framework */; };
+		294AC709197B306F005853C2 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294AC708197B306F005853C2 /* Parse.framework */; };
+		294AC70C197B4301005853C2 /* MakeBillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC70B197B4300005853C2 /* MakeBillViewController.m */; };
+		294AC70F197B47B8005853C2 /* PledgesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC70E197B47B8005853C2 /* PledgesTableViewController.m */; };
+		294AC712197B4887005853C2 /* BillTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC711197B4887005853C2 /* BillTableViewCell.m */; };
+		294AC77B197B52C3005853C2 /* CHANGES.txt in Resources */ = {isa = PBXBuildFile; fileRef = 294AC714197B52C2005853C2 /* CHANGES.txt */; };
+		294AC77C197B52C3005853C2 /* docs.zip in Resources */ = {isa = PBXBuildFile; fileRef = 294AC715197B52C2005853C2 /* docs.zip */; };
+		294AC77D197B52C3005853C2 /* Doxyfile in Resources */ = {isa = PBXBuildFile; fileRef = 294AC716197B52C2005853C2 /* Doxyfile */; };
+		294AC77E197B52C3005853C2 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 294AC717197B52C2005853C2 /* LICENSE.txt */; };
+		294AC77F197B52C3005853C2 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 294AC718197B52C2005853C2 /* README.txt */; };
+		294AC780197B52C3005853C2 /* Simplify.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 294AC719197B52C2005853C2 /* Simplify.bundle */; };
+		294AC781197B52C3005853C2 /* Simplify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294AC71A197B52C2005853C2 /* Simplify.framework */; };
+		294AC782197B52C3005853C2 /* simplifylogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 294AC71B197B52C2005853C2 /* simplifylogo.png */; };
+		294AC783197B52C3005853C2 /* amex.png in Resources */ = {isa = PBXBuildFile; fileRef = 294AC71F197B52C2005853C2 /* amex.png */; };
+		294AC784197B52C3005853C2 /* amex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 294AC720197B52C2005853C2 /* amex@2x.png */; };
+		294AC785197B52C3005853C2 /* blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 294AC721197B52C2005853C2 /* blank.png */; };
+		294AC786197B52C3005853C2 /* blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 294AC722197B52C2005853C2 /* blank@2x.png */; };
+		294AC787197B52C3005853C2 /* china-union.png in Resources */ = {isa = PBXBuildFile; fileRef = 294AC723197B52C2005853C2 /* china-union.png */; };
+		294AC788197B52C3005853C2 /* china-union@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 294AC724197B52C2005853C2 /* china-union@2x.png */; };
+		294AC789197B52C3005853C2 /* diners.png in Resources */ = {isa = PBXBuildFile; fileRef = 294AC725197B52C2005853C2 /* diners.png */; };
+		294AC78A197B52C3005853C2 /* diners@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 294AC726197B52C2005853C2 /* diners@2x.png */; };
+		294AC78B197B52C3005853C2 /* discover.png in Resources */ = {isa = PBXBuildFile; fileRef = 294AC727197B52C2005853C2 /* discover.png */; };
+		294AC78C197B52C3005853C2 /* discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 294AC728197B52C2005853C2 /* discover@2x.png */; };
+		294AC78D197B52C3005853C2 /* jcb.png in Resources */ = {isa = PBXBuildFile; fileRef = 294AC729197B52C2005853C2 /* jcb.png */; };
+		294AC78E197B52C3005853C2 /* jcb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 294AC72A197B52C2005853C2 /* jcb@2x.png */; };
+		294AC78F197B52C3005853C2 /* mastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = 294AC72B197B52C2005853C2 /* mastercard.png */; };
+		294AC790197B52C3005853C2 /* mastercard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 294AC72C197B52C2005853C2 /* mastercard@2x.png */; };
+		294AC791197B52C3005853C2 /* visa.png in Resources */ = {isa = PBXBuildFile; fileRef = 294AC72D197B52C2005853C2 /* visa.png */; };
+		294AC792197B52C3005853C2 /* visa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 294AC72E197B52C2005853C2 /* visa@2x.png */; };
+		294AC793197B52C3005853C2 /* NSBundle+Simplify.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC730197B52C2005853C2 /* NSBundle+Simplify.m */; };
+		294AC794197B52C3005853C2 /* NSString+Simplify.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC732197B52C2005853C2 /* NSString+Simplify.m */; };
+		294AC795197B52C3005853C2 /* SIMAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC734197B52C2005853C2 /* SIMAddress.m */; };
+		294AC796197B52C3005853C2 /* SIMAddressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC735197B52C2005853C2 /* SIMAddressTests.m */; };
+		294AC797197B52C3005853C2 /* SIMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC737197B52C2005853C2 /* SIMButton.m */; };
+		294AC798197B52C3005853C2 /* SIMCardType.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC739197B52C2005853C2 /* SIMCardType.m */; };
+		294AC799197B52C3005853C2 /* SIMCardTypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC73A197B52C2005853C2 /* SIMCardTypeTests.m */; };
+		294AC79A197B52C3005853C2 /* SIMChargeCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC73C197B52C2005853C2 /* SIMChargeCardModel.m */; };
+		294AC79B197B52C3005853C2 /* SIMChargeCardModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC73D197B52C2005853C2 /* SIMChargeCardModelTests.m */; };
+		294AC79C197B52C3005853C2 /* SIMChargeCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC73F197B52C2005853C2 /* SIMChargeCardViewController.m */; };
+		294AC79D197B52C3005853C2 /* SIMChargeCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 294AC740197B52C2005853C2 /* SIMChargeCardViewController.xib */; };
+		294AC79E197B52C3005853C2 /* SIMCreditCardToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC742197B52C2005853C2 /* SIMCreditCardToken.m */; };
+		294AC79F197B52C3005853C2 /* SIMCreditCardTokenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC743197B52C2005853C2 /* SIMCreditCardTokenTests.m */; };
+		294AC7A0197B52C3005853C2 /* SIMDigitVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC745197B52C2005853C2 /* SIMDigitVerifier.m */; };
+		294AC7A1197B52C3005853C2 /* SIMDigitVerifierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC746197B52C2005853C2 /* SIMDigitVerifierTests.m */; };
+		294AC7A2197B52C3005853C2 /* SIMLuhnValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC748197B52C2005853C2 /* SIMLuhnValidator.m */; };
+		294AC7A3197B52C3005853C2 /* SIMLuhnValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC749197B52C2005853C2 /* SIMLuhnValidatorTests.m */; };
+		294AC7A4197B52C3005853C2 /* SimplifyMerchantSDK-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 294AC74B197B52C2005853C2 /* SimplifyMerchantSDK-Info.plist */; };
+		294AC7A5197B52C3005853C2 /* SIMResponseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC74E197B52C2005853C2 /* SIMResponseViewController.m */; };
+		294AC7A6197B52C3005853C2 /* SIMSimplify.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC750197B52C2005853C2 /* SIMSimplify.m */; };
+		294AC7A7197B52C3005853C2 /* SIMSimplifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC751197B52C2005853C2 /* SIMSimplifyTests.m */; };
+		294AC7A8197B52C3005853C2 /* UIColor+Simplify.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC753197B52C2005853C2 /* UIColor+Simplify.m */; };
+		294AC7A9197B52C3005853C2 /* UIImage+Simplify.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC755197B52C3005853C2 /* UIImage+Simplify.m */; };
+		294AC7AA197B52C3005853C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 294AC75A197B52C3005853C2 /* InfoPlist.strings */; };
+		294AC7AB197B52C3005853C2 /* SimplifyMerchantSDKTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 294AC75C197B52C3005853C2 /* SimplifyMerchantSDKTests-Info.plist */; };
+		294AC7AC197B52C3005853C2 /* SimplifySDK.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 294AC75E197B52C3005853C2 /* SimplifySDK.xcworkspace */; };
+		294AC7AD197B52C3005853C2 /* cupcake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 294AC760197B52C3005853C2 /* cupcake.jpg */; };
+		294AC7AE197B52C3005853C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 294AC762197B52C3005853C2 /* InfoPlist.strings */; };
+		294AC7AF197B52C3005853C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 294AC764197B52C3005853C2 /* Images.xcassets */; };
+		294AC7B0197B52C3005853C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC765197B52C3005853C2 /* main.m */; };
+		294AC7B1197B52C3005853C2 /* SIMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC767197B52C3005853C2 /* SIMAppDelegate.m */; };
+		294AC7B2197B52C3005853C2 /* SimplifySDKSampleApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 294AC768197B52C3005853C2 /* SimplifySDKSampleApp-Info.plist */; };
+		294AC7B3197B52C3005853C2 /* SIMProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC76B197B52C3005853C2 /* SIMProductViewController.m */; };
+		294AC7B4197B52C3005853C2 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294AC76C197B52C3005853C2 /* Storyboard.storyboard */; };
+		294AC7B5197B52C3005853C2 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 294AC773197B52C3005853C2 /* libOCMock.a */; };
 		29E960EF197ADEED00A756B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E960EE197ADEED00A756B2 /* Foundation.framework */; };
 		29E960F1197ADEED00A756B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E960F0197ADEED00A756B2 /* CoreGraphics.framework */; };
 		29E960F3197ADEED00A756B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E960F2197ADEED00A756B2 /* UIKit.framework */; };
@@ -28,6 +102,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		294AC7BA197B52C3005853C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 294AC756197B52C3005853C2 /* SimplifyMerchantSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 49748F5F191849C600738BC9;
+			remoteInfo = Simplify;
+		};
+		294AC7BC197B52C3005853C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 294AC756197B52C3005853C2 /* SimplifyMerchantSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 49748F6F191849C600738BC9;
+			remoteInfo = SimplifyMerchantSDKTests;
+		};
+		294AC7BE197B52C3005853C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 294AC756197B52C3005853C2 /* SimplifyMerchantSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4977D05D191AB89C00AC621F;
+			remoteInfo = SimplifyResources;
+		};
+		294AC7C1197B52C3005853C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 294AC76D197B52C3005853C2 /* SimplifySDKSampleApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7ED9E9EF1917E2930082C2C3;
+			remoteInfo = SimplifySDKSampleApp;
+		};
 		29E96111197ADEED00A756B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29E960E3197ADEED00A756B2 /* Project object */;
@@ -46,6 +148,111 @@
 		294AC6E4197B07C2005853C2 /* BillingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillingViewController.m; sourceTree = "<group>"; };
 		294AC6E6197B07D3005853C2 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		294AC6E7197B07D3005853C2 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		294AC6F2197B2FEA005853C2 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		294AC6F4197B2FF1005853C2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		294AC6F6197B2FF8005853C2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		294AC6F8197B3005005853C2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		294AC6FA197B300C005853C2 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		294AC6FC197B3014005853C2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		294AC6FE197B301B005853C2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		294AC700197B3022005853C2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		294AC702197B302B005853C2 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		294AC704197B3031005853C2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		294AC706197B303A005853C2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		294AC708197B306F005853C2 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		294AC70A197B4300005853C2 /* MakeBillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeBillViewController.h; sourceTree = "<group>"; };
+		294AC70B197B4300005853C2 /* MakeBillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeBillViewController.m; sourceTree = "<group>"; };
+		294AC70D197B47B8005853C2 /* PledgesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PledgesTableViewController.h; sourceTree = "<group>"; };
+		294AC70E197B47B8005853C2 /* PledgesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PledgesTableViewController.m; sourceTree = "<group>"; };
+		294AC710197B4887005853C2 /* BillTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillTableViewCell.h; sourceTree = "<group>"; };
+		294AC711197B4887005853C2 /* BillTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillTableViewCell.m; sourceTree = "<group>"; };
+		294AC714197B52C2005853C2 /* CHANGES.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGES.txt; sourceTree = "<group>"; };
+		294AC715197B52C2005853C2 /* docs.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = docs.zip; sourceTree = "<group>"; };
+		294AC716197B52C2005853C2 /* Doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
+		294AC717197B52C2005853C2 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		294AC718197B52C2005853C2 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		294AC719197B52C2005853C2 /* Simplify.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Simplify.bundle; sourceTree = "<group>"; };
+		294AC71A197B52C2005853C2 /* Simplify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Simplify.framework; sourceTree = "<group>"; };
+		294AC71B197B52C2005853C2 /* simplifylogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simplifylogo.png; sourceTree = "<group>"; };
+		294AC71F197B52C2005853C2 /* amex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amex.png; sourceTree = "<group>"; };
+		294AC720197B52C2005853C2 /* amex@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "amex@2x.png"; sourceTree = "<group>"; };
+		294AC721197B52C2005853C2 /* blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blank.png; sourceTree = "<group>"; };
+		294AC722197B52C2005853C2 /* blank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blank@2x.png"; sourceTree = "<group>"; };
+		294AC723197B52C2005853C2 /* china-union.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "china-union.png"; sourceTree = "<group>"; };
+		294AC724197B52C2005853C2 /* china-union@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "china-union@2x.png"; sourceTree = "<group>"; };
+		294AC725197B52C2005853C2 /* diners.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diners.png; sourceTree = "<group>"; };
+		294AC726197B52C2005853C2 /* diners@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diners@2x.png"; sourceTree = "<group>"; };
+		294AC727197B52C2005853C2 /* discover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = discover.png; sourceTree = "<group>"; };
+		294AC728197B52C2005853C2 /* discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discover@2x.png"; sourceTree = "<group>"; };
+		294AC729197B52C2005853C2 /* jcb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jcb.png; sourceTree = "<group>"; };
+		294AC72A197B52C2005853C2 /* jcb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jcb@2x.png"; sourceTree = "<group>"; };
+		294AC72B197B52C2005853C2 /* mastercard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mastercard.png; sourceTree = "<group>"; };
+		294AC72C197B52C2005853C2 /* mastercard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mastercard@2x.png"; sourceTree = "<group>"; };
+		294AC72D197B52C2005853C2 /* visa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visa.png; sourceTree = "<group>"; };
+		294AC72E197B52C2005853C2 /* visa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visa@2x.png"; sourceTree = "<group>"; };
+		294AC72F197B52C2005853C2 /* NSBundle+Simplify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Simplify.h"; sourceTree = "<group>"; };
+		294AC730197B52C2005853C2 /* NSBundle+Simplify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Simplify.m"; sourceTree = "<group>"; };
+		294AC731197B52C2005853C2 /* NSString+Simplify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Simplify.h"; sourceTree = "<group>"; };
+		294AC732197B52C2005853C2 /* NSString+Simplify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Simplify.m"; sourceTree = "<group>"; };
+		294AC733197B52C2005853C2 /* SIMAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMAddress.h; sourceTree = "<group>"; };
+		294AC734197B52C2005853C2 /* SIMAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMAddress.m; sourceTree = "<group>"; };
+		294AC735197B52C2005853C2 /* SIMAddressTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMAddressTests.m; sourceTree = "<group>"; };
+		294AC736197B52C2005853C2 /* SIMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMButton.h; sourceTree = "<group>"; };
+		294AC737197B52C2005853C2 /* SIMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMButton.m; sourceTree = "<group>"; };
+		294AC738197B52C2005853C2 /* SIMCardType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMCardType.h; sourceTree = "<group>"; };
+		294AC739197B52C2005853C2 /* SIMCardType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMCardType.m; sourceTree = "<group>"; };
+		294AC73A197B52C2005853C2 /* SIMCardTypeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMCardTypeTests.m; sourceTree = "<group>"; };
+		294AC73B197B52C2005853C2 /* SIMChargeCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMChargeCardModel.h; sourceTree = "<group>"; };
+		294AC73C197B52C2005853C2 /* SIMChargeCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMChargeCardModel.m; sourceTree = "<group>"; };
+		294AC73D197B52C2005853C2 /* SIMChargeCardModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMChargeCardModelTests.m; sourceTree = "<group>"; };
+		294AC73E197B52C2005853C2 /* SIMChargeCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMChargeCardViewController.h; sourceTree = "<group>"; };
+		294AC73F197B52C2005853C2 /* SIMChargeCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMChargeCardViewController.m; sourceTree = "<group>"; };
+		294AC740197B52C2005853C2 /* SIMChargeCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SIMChargeCardViewController.xib; sourceTree = "<group>"; };
+		294AC741197B52C2005853C2 /* SIMCreditCardToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMCreditCardToken.h; sourceTree = "<group>"; };
+		294AC742197B52C2005853C2 /* SIMCreditCardToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMCreditCardToken.m; sourceTree = "<group>"; };
+		294AC743197B52C2005853C2 /* SIMCreditCardTokenTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMCreditCardTokenTests.m; sourceTree = "<group>"; };
+		294AC744197B52C2005853C2 /* SIMDigitVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMDigitVerifier.h; sourceTree = "<group>"; };
+		294AC745197B52C2005853C2 /* SIMDigitVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMDigitVerifier.m; sourceTree = "<group>"; };
+		294AC746197B52C2005853C2 /* SIMDigitVerifierTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMDigitVerifierTests.m; sourceTree = "<group>"; };
+		294AC747197B52C2005853C2 /* SIMLuhnValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMLuhnValidator.h; sourceTree = "<group>"; };
+		294AC748197B52C2005853C2 /* SIMLuhnValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMLuhnValidator.m; sourceTree = "<group>"; };
+		294AC749197B52C2005853C2 /* SIMLuhnValidatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMLuhnValidatorTests.m; sourceTree = "<group>"; };
+		294AC74A197B52C2005853C2 /* Simplify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Simplify.h; sourceTree = "<group>"; };
+		294AC74B197B52C2005853C2 /* SimplifyMerchantSDK-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SimplifyMerchantSDK-Info.plist"; sourceTree = "<group>"; };
+		294AC74C197B52C2005853C2 /* SimplifyMerchantSDK-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SimplifyMerchantSDK-Prefix.pch"; sourceTree = "<group>"; };
+		294AC74D197B52C2005853C2 /* SIMResponseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMResponseViewController.h; sourceTree = "<group>"; };
+		294AC74E197B52C2005853C2 /* SIMResponseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMResponseViewController.m; sourceTree = "<group>"; };
+		294AC74F197B52C2005853C2 /* SIMSimplify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMSimplify.h; sourceTree = "<group>"; };
+		294AC750197B52C2005853C2 /* SIMSimplify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMSimplify.m; sourceTree = "<group>"; };
+		294AC751197B52C2005853C2 /* SIMSimplifyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMSimplifyTests.m; sourceTree = "<group>"; };
+		294AC752197B52C2005853C2 /* UIColor+Simplify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Simplify.h"; sourceTree = "<group>"; };
+		294AC753197B52C2005853C2 /* UIColor+Simplify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Simplify.m"; sourceTree = "<group>"; };
+		294AC754197B52C3005853C2 /* UIImage+Simplify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Simplify.h"; sourceTree = "<group>"; };
+		294AC755197B52C3005853C2 /* UIImage+Simplify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Simplify.m"; sourceTree = "<group>"; };
+		294AC756197B52C3005853C2 /* SimplifyMerchantSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SimplifyMerchantSDK.xcodeproj; sourceTree = "<group>"; };
+		294AC75B197B52C3005853C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		294AC75C197B52C3005853C2 /* SimplifyMerchantSDKTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SimplifyMerchantSDKTests-Info.plist"; sourceTree = "<group>"; };
+		294AC75D197B52C3005853C2 /* SimplifyMerchantSDKTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SimplifyMerchantSDKTests-Prefix.pch"; sourceTree = "<group>"; };
+		294AC75E197B52C3005853C2 /* SimplifySDK.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = SimplifySDK.xcworkspace; sourceTree = "<group>"; };
+		294AC760197B52C3005853C2 /* cupcake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cupcake.jpg; sourceTree = "<group>"; };
+		294AC763197B52C3005853C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		294AC764197B52C3005853C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		294AC765197B52C3005853C2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		294AC766197B52C3005853C2 /* SIMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMAppDelegate.h; sourceTree = "<group>"; };
+		294AC767197B52C3005853C2 /* SIMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMAppDelegate.m; sourceTree = "<group>"; };
+		294AC768197B52C3005853C2 /* SimplifySDKSampleApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SimplifySDKSampleApp-Info.plist"; sourceTree = "<group>"; };
+		294AC769197B52C3005853C2 /* SimplifySDKSampleApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SimplifySDKSampleApp-Prefix.pch"; sourceTree = "<group>"; };
+		294AC76A197B52C3005853C2 /* SIMProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMProductViewController.h; sourceTree = "<group>"; };
+		294AC76B197B52C3005853C2 /* SIMProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMProductViewController.m; sourceTree = "<group>"; };
+		294AC76C197B52C3005853C2 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		294AC76D197B52C3005853C2 /* SimplifySDKSampleApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SimplifySDKSampleApp.xcodeproj; sourceTree = "<group>"; };
+		294AC773197B52C3005853C2 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		294AC775197B52C3005853C2 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		294AC776197B52C3005853C2 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		294AC777197B52C3005853C2 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		294AC778197B52C3005853C2 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		294AC779197B52C3005853C2 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		294AC77A197B52C3005853C2 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 		29E960EB197ADEED00A756B2 /* Split Pay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Split Pay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E960EE197ADEED00A756B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		29E960F0197ADEED00A756B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -72,7 +279,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				294AC707197B303A005853C2 /* SystemConfiguration.framework in Frameworks */,
+				294AC7B5197B52C3005853C2 /* libOCMock.a in Frameworks */,
+				294AC705197B3031005853C2 /* StoreKit.framework in Frameworks */,
+				294AC703197B302B005853C2 /* Social.framework in Frameworks */,
+				294AC701197B3022005853C2 /* Security.framework in Frameworks */,
+				294AC709197B306F005853C2 /* Parse.framework in Frameworks */,
+				294AC6FF197B301B005853C2 /* QuartzCore.framework in Frameworks */,
+				294AC6FD197B3014005853C2 /* MobileCoreServices.framework in Frameworks */,
+				294AC6FB197B300C005853C2 /* libz.1.1.3.dylib in Frameworks */,
+				294AC6F9197B3005005853C2 /* CoreLocation.framework in Frameworks */,
 				29E960F1197ADEED00A756B2 /* CoreGraphics.framework in Frameworks */,
+				294AC6F7197B2FF8005853C2 /* CFNetwork.framework in Frameworks */,
+				294AC781197B52C3005853C2 /* Simplify.framework in Frameworks */,
+				294AC6F5197B2FF1005853C2 /* AudioToolbox.framework in Frameworks */,
+				294AC6F3197B2FEA005853C2 /* Accounts.framework in Frameworks */,
 				29E960F3197ADEED00A756B2 /* UIKit.framework in Frameworks */,
 				29E960EF197ADEED00A756B2 /* Foundation.framework in Frameworks */,
 			);
@@ -91,6 +312,190 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		294AC713197B52C2005853C2 /* simplify */ = {
+			isa = PBXGroup;
+			children = (
+				294AC714197B52C2005853C2 /* CHANGES.txt */,
+				294AC715197B52C2005853C2 /* docs.zip */,
+				294AC716197B52C2005853C2 /* Doxyfile */,
+				294AC717197B52C2005853C2 /* LICENSE.txt */,
+				294AC718197B52C2005853C2 /* README.txt */,
+				294AC719197B52C2005853C2 /* Simplify.bundle */,
+				294AC71A197B52C2005853C2 /* Simplify.framework */,
+				294AC71B197B52C2005853C2 /* simplifylogo.png */,
+				294AC71C197B52C2005853C2 /* SimplifyMerchantSDK */,
+				294AC75E197B52C3005853C2 /* SimplifySDK.xcworkspace */,
+				294AC75F197B52C3005853C2 /* SimplifySDKSampleApp */,
+				294AC771197B52C3005853C2 /* vendor */,
+			);
+			path = simplify;
+			sourceTree = "<group>";
+		};
+		294AC71C197B52C2005853C2 /* SimplifyMerchantSDK */ = {
+			isa = PBXGroup;
+			children = (
+				294AC71D197B52C2005853C2 /* SimplifyMerchantSDK */,
+				294AC756197B52C3005853C2 /* SimplifyMerchantSDK.xcodeproj */,
+				294AC759197B52C3005853C2 /* SimplifyMerchantSDKTests */,
+			);
+			path = SimplifyMerchantSDK;
+			sourceTree = "<group>";
+		};
+		294AC71D197B52C2005853C2 /* SimplifyMerchantSDK */ = {
+			isa = PBXGroup;
+			children = (
+				294AC71E197B52C2005853C2 /* CardIcons */,
+				294AC72F197B52C2005853C2 /* NSBundle+Simplify.h */,
+				294AC730197B52C2005853C2 /* NSBundle+Simplify.m */,
+				294AC731197B52C2005853C2 /* NSString+Simplify.h */,
+				294AC732197B52C2005853C2 /* NSString+Simplify.m */,
+				294AC733197B52C2005853C2 /* SIMAddress.h */,
+				294AC734197B52C2005853C2 /* SIMAddress.m */,
+				294AC735197B52C2005853C2 /* SIMAddressTests.m */,
+				294AC736197B52C2005853C2 /* SIMButton.h */,
+				294AC737197B52C2005853C2 /* SIMButton.m */,
+				294AC738197B52C2005853C2 /* SIMCardType.h */,
+				294AC739197B52C2005853C2 /* SIMCardType.m */,
+				294AC73A197B52C2005853C2 /* SIMCardTypeTests.m */,
+				294AC73B197B52C2005853C2 /* SIMChargeCardModel.h */,
+				294AC73C197B52C2005853C2 /* SIMChargeCardModel.m */,
+				294AC73D197B52C2005853C2 /* SIMChargeCardModelTests.m */,
+				294AC73E197B52C2005853C2 /* SIMChargeCardViewController.h */,
+				294AC73F197B52C2005853C2 /* SIMChargeCardViewController.m */,
+				294AC740197B52C2005853C2 /* SIMChargeCardViewController.xib */,
+				294AC741197B52C2005853C2 /* SIMCreditCardToken.h */,
+				294AC742197B52C2005853C2 /* SIMCreditCardToken.m */,
+				294AC743197B52C2005853C2 /* SIMCreditCardTokenTests.m */,
+				294AC744197B52C2005853C2 /* SIMDigitVerifier.h */,
+				294AC745197B52C2005853C2 /* SIMDigitVerifier.m */,
+				294AC746197B52C2005853C2 /* SIMDigitVerifierTests.m */,
+				294AC747197B52C2005853C2 /* SIMLuhnValidator.h */,
+				294AC748197B52C2005853C2 /* SIMLuhnValidator.m */,
+				294AC749197B52C2005853C2 /* SIMLuhnValidatorTests.m */,
+				294AC74A197B52C2005853C2 /* Simplify.h */,
+				294AC74B197B52C2005853C2 /* SimplifyMerchantSDK-Info.plist */,
+				294AC74C197B52C2005853C2 /* SimplifyMerchantSDK-Prefix.pch */,
+				294AC74D197B52C2005853C2 /* SIMResponseViewController.h */,
+				294AC74E197B52C2005853C2 /* SIMResponseViewController.m */,
+				294AC74F197B52C2005853C2 /* SIMSimplify.h */,
+				294AC750197B52C2005853C2 /* SIMSimplify.m */,
+				294AC751197B52C2005853C2 /* SIMSimplifyTests.m */,
+				294AC752197B52C2005853C2 /* UIColor+Simplify.h */,
+				294AC753197B52C2005853C2 /* UIColor+Simplify.m */,
+				294AC754197B52C3005853C2 /* UIImage+Simplify.h */,
+				294AC755197B52C3005853C2 /* UIImage+Simplify.m */,
+			);
+			path = SimplifyMerchantSDK;
+			sourceTree = "<group>";
+		};
+		294AC71E197B52C2005853C2 /* CardIcons */ = {
+			isa = PBXGroup;
+			children = (
+				294AC71F197B52C2005853C2 /* amex.png */,
+				294AC720197B52C2005853C2 /* amex@2x.png */,
+				294AC721197B52C2005853C2 /* blank.png */,
+				294AC722197B52C2005853C2 /* blank@2x.png */,
+				294AC723197B52C2005853C2 /* china-union.png */,
+				294AC724197B52C2005853C2 /* china-union@2x.png */,
+				294AC725197B52C2005853C2 /* diners.png */,
+				294AC726197B52C2005853C2 /* diners@2x.png */,
+				294AC727197B52C2005853C2 /* discover.png */,
+				294AC728197B52C2005853C2 /* discover@2x.png */,
+				294AC729197B52C2005853C2 /* jcb.png */,
+				294AC72A197B52C2005853C2 /* jcb@2x.png */,
+				294AC72B197B52C2005853C2 /* mastercard.png */,
+				294AC72C197B52C2005853C2 /* mastercard@2x.png */,
+				294AC72D197B52C2005853C2 /* visa.png */,
+				294AC72E197B52C2005853C2 /* visa@2x.png */,
+			);
+			path = CardIcons;
+			sourceTree = "<group>";
+		};
+		294AC757197B52C3005853C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				294AC7BB197B52C3005853C2 /* libSimplify.a */,
+				294AC7BD197B52C3005853C2 /* SimplifyMerchantSDKTests.xctest */,
+				294AC7BF197B52C3005853C2 /* Simplify.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		294AC759197B52C3005853C2 /* SimplifyMerchantSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				294AC75A197B52C3005853C2 /* InfoPlist.strings */,
+				294AC75C197B52C3005853C2 /* SimplifyMerchantSDKTests-Info.plist */,
+				294AC75D197B52C3005853C2 /* SimplifyMerchantSDKTests-Prefix.pch */,
+			);
+			path = SimplifyMerchantSDKTests;
+			sourceTree = "<group>";
+		};
+		294AC75F197B52C3005853C2 /* SimplifySDKSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				294AC760197B52C3005853C2 /* cupcake.jpg */,
+				294AC761197B52C3005853C2 /* SimplifySDKSampleApp */,
+				294AC76D197B52C3005853C2 /* SimplifySDKSampleApp.xcodeproj */,
+			);
+			path = SimplifySDKSampleApp;
+			sourceTree = "<group>";
+		};
+		294AC761197B52C3005853C2 /* SimplifySDKSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				294AC762197B52C3005853C2 /* InfoPlist.strings */,
+				294AC764197B52C3005853C2 /* Images.xcassets */,
+				294AC765197B52C3005853C2 /* main.m */,
+				294AC766197B52C3005853C2 /* SIMAppDelegate.h */,
+				294AC767197B52C3005853C2 /* SIMAppDelegate.m */,
+				294AC768197B52C3005853C2 /* SimplifySDKSampleApp-Info.plist */,
+				294AC769197B52C3005853C2 /* SimplifySDKSampleApp-Prefix.pch */,
+				294AC76A197B52C3005853C2 /* SIMProductViewController.h */,
+				294AC76B197B52C3005853C2 /* SIMProductViewController.m */,
+				294AC76C197B52C3005853C2 /* Storyboard.storyboard */,
+			);
+			path = SimplifySDKSampleApp;
+			sourceTree = "<group>";
+		};
+		294AC76E197B52C3005853C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				294AC7C2197B52C3005853C2 /* SimplifySDKSampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		294AC771197B52C3005853C2 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				294AC772197B52C3005853C2 /* ocmock */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		294AC772197B52C3005853C2 /* ocmock */ = {
+			isa = PBXGroup;
+			children = (
+				294AC773197B52C3005853C2 /* libOCMock.a */,
+				294AC774197B52C3005853C2 /* OCMock */,
+			);
+			path = ocmock;
+			sourceTree = "<group>";
+		};
+		294AC774197B52C3005853C2 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				294AC775197B52C3005853C2 /* NSNotificationCenter+OCMAdditions.h */,
+				294AC776197B52C3005853C2 /* OCMArg.h */,
+				294AC777197B52C3005853C2 /* OCMConstraint.h */,
+				294AC778197B52C3005853C2 /* OCMock.h */,
+				294AC779197B52C3005853C2 /* OCMockObject.h */,
+				294AC77A197B52C3005853C2 /* OCMockRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
 		29E960E2197ADEED00A756B2 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +518,19 @@
 		29E960ED197ADEED00A756B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				294AC713197B52C2005853C2 /* simplify */,
+				294AC708197B306F005853C2 /* Parse.framework */,
+				294AC706197B303A005853C2 /* SystemConfiguration.framework */,
+				294AC704197B3031005853C2 /* StoreKit.framework */,
+				294AC702197B302B005853C2 /* Social.framework */,
+				294AC700197B3022005853C2 /* Security.framework */,
+				294AC6FE197B301B005853C2 /* QuartzCore.framework */,
+				294AC6FC197B3014005853C2 /* MobileCoreServices.framework */,
+				294AC6FA197B300C005853C2 /* libz.1.1.3.dylib */,
+				294AC6F8197B3005005853C2 /* CoreLocation.framework */,
+				294AC6F6197B2FF8005853C2 /* CFNetwork.framework */,
+				294AC6F4197B2FF1005853C2 /* AudioToolbox.framework */,
+				294AC6F2197B2FEA005853C2 /* Accounts.framework */,
 				29E960EE197ADEED00A756B2 /* Foundation.framework */,
 				29E960F0197ADEED00A756B2 /* CoreGraphics.framework */,
 				29E960F2197ADEED00A756B2 /* UIKit.framework */,
@@ -137,6 +555,12 @@
 				294AC6E4197B07C2005853C2 /* BillingViewController.m */,
 				294AC6E6197B07D3005853C2 /* ProfileViewController.h */,
 				294AC6E7197B07D3005853C2 /* ProfileViewController.m */,
+				294AC70A197B4300005853C2 /* MakeBillViewController.h */,
+				294AC70B197B4300005853C2 /* MakeBillViewController.m */,
+				294AC70D197B47B8005853C2 /* PledgesTableViewController.h */,
+				294AC70E197B47B8005853C2 /* PledgesTableViewController.m */,
+				294AC710197B4887005853C2 /* BillTableViewCell.h */,
+				294AC711197B4887005853C2 /* BillTableViewCell.m */,
 				29E96106197ADEED00A756B2 /* Images.xcassets */,
 				29E960F5197ADEED00A756B2 /* Supporting Files */,
 			);
@@ -235,6 +659,16 @@
 			mainGroup = 29E960E2197ADEED00A756B2;
 			productRefGroup = 29E960EC197ADEED00A756B2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 294AC757197B52C3005853C2 /* Products */;
+					ProjectRef = 294AC756197B52C3005853C2 /* SimplifyMerchantSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = 294AC76E197B52C3005853C2 /* Products */;
+					ProjectRef = 294AC76D197B52C3005853C2 /* SimplifySDKSampleApp.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				29E960EA197ADEED00A756B2 /* Split Pay */,
@@ -243,14 +677,78 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		294AC7BB197B52C3005853C2 /* libSimplify.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSimplify.a;
+			remoteRef = 294AC7BA197B52C3005853C2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		294AC7BD197B52C3005853C2 /* SimplifyMerchantSDKTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SimplifyMerchantSDKTests.xctest;
+			remoteRef = 294AC7BC197B52C3005853C2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		294AC7BF197B52C3005853C2 /* Simplify.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Simplify.bundle;
+			remoteRef = 294AC7BE197B52C3005853C2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		294AC7C2197B52C3005853C2 /* SimplifySDKSampleApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SimplifySDKSampleApp.app;
+			remoteRef = 294AC7C1197B52C3005853C2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		29E960E9197ADEED00A756B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				294AC77D197B52C3005853C2 /* Doxyfile in Resources */,
+				294AC792197B52C3005853C2 /* visa@2x.png in Resources */,
+				294AC7A4197B52C3005853C2 /* SimplifyMerchantSDK-Info.plist in Resources */,
+				294AC791197B52C3005853C2 /* visa.png in Resources */,
+				294AC786197B52C3005853C2 /* blank@2x.png in Resources */,
+				294AC78E197B52C3005853C2 /* jcb@2x.png in Resources */,
+				294AC7B2197B52C3005853C2 /* SimplifySDKSampleApp-Info.plist in Resources */,
 				29E96107197ADEED00A756B2 /* Images.xcassets in Resources */,
 				29E960F9197ADEED00A756B2 /* InfoPlist.strings in Resources */,
+				294AC782197B52C3005853C2 /* simplifylogo.png in Resources */,
+				294AC77B197B52C3005853C2 /* CHANGES.txt in Resources */,
+				294AC7AB197B52C3005853C2 /* SimplifyMerchantSDKTests-Info.plist in Resources */,
+				294AC7AF197B52C3005853C2 /* Images.xcassets in Resources */,
+				294AC78D197B52C3005853C2 /* jcb.png in Resources */,
+				294AC7AC197B52C3005853C2 /* SimplifySDK.xcworkspace in Resources */,
+				294AC787197B52C3005853C2 /* china-union.png in Resources */,
+				294AC785197B52C3005853C2 /* blank.png in Resources */,
+				294AC7AA197B52C3005853C2 /* InfoPlist.strings in Resources */,
+				294AC788197B52C3005853C2 /* china-union@2x.png in Resources */,
+				294AC78A197B52C3005853C2 /* diners@2x.png in Resources */,
+				294AC790197B52C3005853C2 /* mastercard@2x.png in Resources */,
+				294AC78F197B52C3005853C2 /* mastercard.png in Resources */,
+				294AC783197B52C3005853C2 /* amex.png in Resources */,
+				294AC78C197B52C3005853C2 /* discover@2x.png in Resources */,
+				294AC7AD197B52C3005853C2 /* cupcake.jpg in Resources */,
+				294AC780197B52C3005853C2 /* Simplify.bundle in Resources */,
+				294AC784197B52C3005853C2 /* amex@2x.png in Resources */,
 				29E96102197ADEED00A756B2 /* Main.storyboard in Resources */,
+				294AC77C197B52C3005853C2 /* docs.zip in Resources */,
+				294AC7B4197B52C3005853C2 /* Storyboard.storyboard in Resources */,
+				294AC789197B52C3005853C2 /* diners.png in Resources */,
+				294AC77F197B52C3005853C2 /* README.txt in Resources */,
+				294AC79D197B52C3005853C2 /* SIMChargeCardViewController.xib in Resources */,
+				294AC77E197B52C3005853C2 /* LICENSE.txt in Resources */,
+				294AC7AE197B52C3005853C2 /* InfoPlist.strings in Resources */,
+				294AC78B197B52C3005853C2 /* discover.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +768,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				29E96105197ADEED00A756B2 /* ViewController.m in Sources */,
+				294AC70F197B47B8005853C2 /* PledgesTableViewController.m in Sources */,
+				294AC797197B52C3005853C2 /* SIMButton.m in Sources */,
+				294AC7A2197B52C3005853C2 /* SIMLuhnValidator.m in Sources */,
+				294AC7A1197B52C3005853C2 /* SIMDigitVerifierTests.m in Sources */,
+				294AC79B197B52C3005853C2 /* SIMChargeCardModelTests.m in Sources */,
+				294AC7B0197B52C3005853C2 /* main.m in Sources */,
+				294AC795197B52C3005853C2 /* SIMAddress.m in Sources */,
+				294AC794197B52C3005853C2 /* NSString+Simplify.m in Sources */,
+				294AC7A9197B52C3005853C2 /* UIImage+Simplify.m in Sources */,
+				294AC79A197B52C3005853C2 /* SIMChargeCardModel.m in Sources */,
+				294AC7A5197B52C3005853C2 /* SIMResponseViewController.m in Sources */,
+				294AC7B1197B52C3005853C2 /* SIMAppDelegate.m in Sources */,
 				29E960FF197ADEED00A756B2 /* AppDelegate.m in Sources */,
+				294AC7A0197B52C3005853C2 /* SIMDigitVerifier.m in Sources */,
+				294AC7A8197B52C3005853C2 /* UIColor+Simplify.m in Sources */,
+				294AC7A3197B52C3005853C2 /* SIMLuhnValidatorTests.m in Sources */,
+				294AC799197B52C3005853C2 /* SIMCardTypeTests.m in Sources */,
+				294AC7A6197B52C3005853C2 /* SIMSimplify.m in Sources */,
 				294AC6E5197B07C2005853C2 /* BillingViewController.m in Sources */,
+				294AC79F197B52C3005853C2 /* SIMCreditCardTokenTests.m in Sources */,
+				294AC70C197B4301005853C2 /* MakeBillViewController.m in Sources */,
 				294AC6E2197B07B5005853C2 /* FTGSignupViewController.m in Sources */,
+				294AC79C197B52C3005853C2 /* SIMChargeCardViewController.m in Sources */,
+				294AC712197B4887005853C2 /* BillTableViewCell.m in Sources */,
 				294AC6E8197B07D3005853C2 /* ProfileViewController.m in Sources */,
+				294AC796197B52C3005853C2 /* SIMAddressTests.m in Sources */,
+				294AC793197B52C3005853C2 /* NSBundle+Simplify.m in Sources */,
+				294AC798197B52C3005853C2 /* SIMCardType.m in Sources */,
+				294AC7A7197B52C3005853C2 /* SIMSimplifyTests.m in Sources */,
+				294AC7B3197B52C3005853C2 /* SIMProductViewController.m in Sources */,
 				294AC6DF197B0799005853C2 /* SignupViewController.m in Sources */,
+				294AC79E197B52C3005853C2 /* SIMCreditCardToken.m in Sources */,
 				29E960FB197ADEED00A756B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +823,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		294AC75A197B52C3005853C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				294AC75B197B52C3005853C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		294AC762197B52C3005853C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				294AC763197B52C3005853C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		29E960F7197ADEED00A756B2 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -400,9 +941,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/simplify",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Split Pay/Split Pay-Prefix.pch";
 				INFOPLIST_FILE = "Split Pay/Split Pay-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/simplify/vendor/ocmock",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -413,9 +963,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/simplify",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Split Pay/Split Pay-Prefix.pch";
 				INFOPLIST_FILE = "Split Pay/Split Pay-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/simplify/vendor/ocmock",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

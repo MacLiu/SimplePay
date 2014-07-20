@@ -18,6 +18,7 @@
 @property (strong, nonatomic) IBOutlet UITextField *expDateYearTextField;
 @property (strong, nonatomic) IBOutlet UITextField *cvv2TextField;
 
+- (IBAction)finishButtonPressed:(UIButton *)sender;
 
 
 

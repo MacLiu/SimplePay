@@ -25,10 +25,17 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    
+    PFFile *file = [[PFUser currentUser] objectForKey:@"profilePic"];
+    if (file.url != nil) {
+        NSURL *url = [[NSURL alloc] initWithString:file.url];
+        NSData *data = [NSData dataWithContentsOfURL:url];
+        self.pic = [UIImage imageWithData:data];
+    }
+
     if (self.pic != nil) {
         self.profilePicture.image = self.pic;
     }
+    
     NSString *date = @"07/19/14";
     NSString *amount = @"27.99";
     NSMutableDictionary *firstTrans = [[NSMutableDictionary alloc] init];
@@ -101,7 +108,16 @@
 -(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
     self.pic = [self circularScaleAndCropImage:[info objectForKey:UIImagePickerControllerOriginalImage] frame:CGRectMake(0, 0, 100, 100)];
+    NSData *fileData = UIImagePNGRepresentation(self.pic);
     
+    PFUser *currentUser = [PFUser currentUser];
+    PFFile *file = [PFFile fileWithName:@"pic" data:fileData];
+    [currentUser setObject:file forKey:@"profilePic"];
+    [currentUser saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+        if (error) {
+            NSLog(@"%@", error);
+        }
+    }];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
