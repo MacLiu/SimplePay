@@ -17,9 +17,13 @@
 @property (strong, nonatomic) IBOutlet UITextField *expDateMonthTextField;
 @property (strong, nonatomic) IBOutlet UITextField *expDateYearTextField;
 @property (strong, nonatomic) IBOutlet UITextField *cvv2TextField;
+@property (strong, nonatomic) IBOutlet UITextField *adressTextField;
+@property (strong, nonatomic) IBOutlet UITextField *cityTextField;
+@property (strong, nonatomic) IBOutlet UITextField *stateTextField;
+@property (strong, nonatomic) IBOutlet UITextField *zipTextField;
+
 
 - (IBAction)finishButtonPressed:(UIButton *)sender;
-
 
 
 @end

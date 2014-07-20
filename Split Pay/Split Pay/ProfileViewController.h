@@ -15,6 +15,8 @@
 @property (strong, nonatomic) UIImage *pic;
 @property (strong, nonatomic) IBOutlet UITableView *recentActivityTableView;
 @property (strong, nonatomic) NSMutableArray *transactions;
+@property (strong, nonatomic) IBOutlet UILabel *nameLabel;
 
+- (IBAction)logoutButtonPressed:(UIButton *)sender;
 - (IBAction)profilePicButtonPressed:(UIButton *)sender;
 @end

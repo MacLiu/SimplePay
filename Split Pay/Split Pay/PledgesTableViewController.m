@@ -9,20 +9,12 @@
 #import "PledgesTableViewController.h"
 #import "BillTableViewCell.h"
 
-@interface PledgesTableViewController ()
+@interface PledgesTableViewController () <UISearchBarDelegate>
 
 @end
 
 @implementation PledgesTableViewController
 
-- (id)initWithStyle:(UITableViewStyle)style
-{
-    self = [super initWithStyle:style];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
 - (void)viewDidLoad
 {
@@ -35,13 +27,11 @@
             [self.tableView reloadData];
         }
     }];
+    
+    self.searchedNames = [[NSMutableArray alloc] init];
+    self.searchBat.delegate = self;
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 #pragma mark - Table view data source
 
@@ -54,8 +44,10 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-
     // Return the number of rows in the section.
+    if (self.isFiltered) {
+        return self.searchedNames.count;
+    }
     return self.pledges.count;
 }
 
@@ -65,8 +57,13 @@
     BillTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     
     // Configure the cell...
+    PFObject *pledge;
+    if (self.isFiltered) {
+        pledge = [self.searchedNames objectAtIndex:indexPath.row];
+    } else {
+        pledge = [self.pledges objectAtIndex:indexPath.row];
 
-    PFObject *pledge = [self.pledges objectAtIndex:indexPath.row];
+    }
     NSNumber *amount = [pledge objectForKey:@"amount"];
                         NSString *stringAmount = [NSString stringWithFormat:@"$ %@", amount];
     cell.username.text = [pledge objectForKey:@"username"];
@@ -77,54 +74,33 @@
     return cell;
 }
 
+#pragma mark - Search Bar Delegates
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+-(void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText
 {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
+    [self.searchedNames removeAllObjects];
+    if ([searchText length] == 0) {
+        self.isFiltered = NO;
+    } else {
+        self.isFiltered = YES;
+        
+        for (PFObject *pledge in self.pledges) {
+            NSString *username = pledge[@"username"];
+            
+            NSRange searchRange = [username rangeOfString:searchText options:NSCaseInsensitiveSearch];
+            if (searchRange.location != NSNotFound) {
+                [self.searchedNames addObject:pledge];
+            }
+        }
+        
+    }
+    [self.tableView reloadData];
 }
-*/
 
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+-(void)searchBarSearchButtonClicked:(UISearchBar *)searchBar
 {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
+    [self.tableView resignFirstResponder];
+    [self.searchBat resignFirstResponder];
 }
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

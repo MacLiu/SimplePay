@@ -36,6 +36,8 @@
         self.profilePicture.image = self.pic;
     }
     
+    self.nameLabel.text = [[PFUser currentUser] objectForKey:@"username"];
+    
     NSString *date = @"07/19/14";
     NSString *amount = @"27.99";
     NSMutableDictionary *firstTrans = [[NSMutableDictionary alloc] init];
@@ -84,6 +86,11 @@
 
 
 #pragma mark- IBActions
+
+- (IBAction)logoutButtonPressed:(UIButton *)sender {
+    [PFUser logOut];
+    [self performSegueWithIdentifier:@"toLogin" sender:self];
+}
 
 - (IBAction)profilePicButtonPressed:(UIButton *)sender {
     self.imagePickerController = [[UIImagePickerController alloc] init];
