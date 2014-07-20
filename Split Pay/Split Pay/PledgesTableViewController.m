@@ -9,7 +9,11 @@
 #import "PledgesTableViewController.h"
 #import "BillTableViewCell.h"
 
+<<<<<<< HEAD
 @interface PledgesTableViewController () <UISearchBarDelegate, launchPaymentView>
+=======
+@interface PledgesTableViewController () <UISearchBarDelegate>
+>>>>>>> FETCH_HEAD
 
 @end
 
@@ -74,6 +78,7 @@
     return cell;
 }
 
+<<<<<<< HEAD
 #pragma mark - launchPaymentViewDelegate
 
 -(void)loadNewScreen:(UIViewController *)controller;
@@ -86,6 +91,12 @@
 
 -(void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText
 {
+=======
+#pragma mark - Search Bar Delegates
+
+-(void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText
+{
+>>>>>>> FETCH_HEAD
     [self.searchedNames removeAllObjects];
     if ([searchText length] == 0) {
         self.isFiltered = NO;

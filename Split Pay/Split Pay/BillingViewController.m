@@ -13,7 +13,11 @@
 #import <Simplify/UIColor+Simplify.h>
 #import <Simplify/SIMResponseViewController.h>
 
+<<<<<<< HEAD
 @interface BillingViewController ()<UITextFieldDelegate, SIMChargeCardViewControllerDelegate, UIImagePickerControllerDelegate>
+=======
+@interface BillingViewController ()<UITextFieldDelegate>
+>>>>>>> FETCH_HEAD
 
 @end
 
@@ -41,6 +45,7 @@
                                    action:@selector(dismissKeyboard)];
     
     [self.view addGestureRecognizer:tap];
+<<<<<<< HEAD
     NSLog(@"before view controller");
     //2. Create a SIMChargeViewController with your public api key
     SIMChargeCardViewController *chargeVC = [[SIMChargeCardViewController alloc] initWithPublicKey:@"sbpb_MjkzZGU2N2UtOWEzZS00NzFmLWFiN2EtMzQ3ZThjZWRlNmJi" primaryColor:[UIColor redColor]];
@@ -55,12 +60,15 @@
     [self presentViewController:c animated:NO completion:nil];
     NSLog(@"after view controller");
 
+=======
+>>>>>>> FETCH_HEAD
 }
 
 #pragma mark - UITextfielddelegates
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
     [textField resignFirstResponder];
     return NO;
+<<<<<<< HEAD
 }
 
 
@@ -119,10 +127,31 @@
 {
     
 }
+=======
+}
+
+>>>>>>> FETCH_HEAD
 
 -(void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
 {
     
 }
+
+#pragma mark - Helper Methods
+
+-(void)dismissKeyboard {
+    [self.creditCardNumberTextField resignFirstResponder];
+    [self.cardTypeTextField resignFirstResponder];
+    [self.expDateMonthTextField resignFirstResponder];
+    [self.expDateYearTextField resignFirstResponder];
+    [self.cvv2TextField resignFirstResponder];
+    [self.nameTextField resignFirstResponder];
+    [self.adressTextField resignFirstResponder];
+    [self.cityTextField resignFirstResponder];
+    [self.stateTextField resignFirstResponder];
+    [self.zipTextField resignFirstResponder];
+}
+
+
 
 @end
