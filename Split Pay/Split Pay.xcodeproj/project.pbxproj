@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A33706F197B675F006F5EF3 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A33706E197B675F006F5EF3 /* FacebookSDK.framework */; };
 		294AC6DF197B0799005853C2 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC6DE197B0799005853C2 /* SignupViewController.m */; };
 		294AC6E5197B07C2005853C2 /* BillingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC6E4197B07C2005853C2 /* BillingViewController.m */; };
 		294AC6E8197B07D3005853C2 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC6E7197B07D3005853C2 /* ProfileViewController.m */; };
@@ -57,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A33706E197B675F006F5EF3 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		294AC6DD197B0799005853C2 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignupViewController.h; path = ../SignupViewController.h; sourceTree = "<group>"; };
 		294AC6DE197B0799005853C2 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignupViewController.m; path = ../SignupViewController.m; sourceTree = "<group>"; };
 		294AC6E3197B07C2005853C2 /* BillingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingViewController.h; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				294AC705197B3031005853C2 /* StoreKit.framework in Frameworks */,
 				294AC703197B302B005853C2 /* Social.framework in Frameworks */,
 				294AC701197B3022005853C2 /* Security.framework in Frameworks */,
+				0A33706F197B675F006F5EF3 /* FacebookSDK.framework in Frameworks */,
 				294AC709197B306F005853C2 /* Parse.framework in Frameworks */,
 				294AC6FF197B301B005853C2 /* QuartzCore.framework in Frameworks */,
 				294AC6FD197B3014005853C2 /* MobileCoreServices.framework in Frameworks */,
@@ -177,7 +180,11 @@
 		29E960ED197ADEED00A756B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				294AC7CB197B710B005853C2 /* FacebookSDK.framework */,
+=======
+				0A33706E197B675F006F5EF3 /* FacebookSDK.framework */,
+>>>>>>> FETCH_HEAD
 				294AC713197B52C2005853C2 /* simplify */,
 				294AC708197B306F005853C2 /* Parse.framework */,
 				294AC706197B303A005853C2 /* SystemConfiguration.framework */,
