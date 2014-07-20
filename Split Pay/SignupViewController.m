@@ -7,7 +7,6 @@
 //
 
 #import "SignupViewController.h"
-#import <FacebookSDK/FacebookSDK.h>
 
 @interface SignupViewController () <UITextFieldDelegate>
 
@@ -15,10 +14,20 @@
 
 @implementation SignupViewController
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor lightGrayColor];
     self.numberTextField.delegate = self;
     self.firstNameTextField.delegate = self;
     self.lastNameTextField.delegate = self;
@@ -31,6 +40,12 @@
                                    action:@selector(dismissKeyboard)];
     
     [self.view addGestureRecognizer:tap];
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 - (IBAction)signupButtonPressed:(UIButton *)sender {
@@ -73,17 +88,13 @@
     return NO;
 }
 
-#pragma mark - Helper Methods
-
 -(void)dismissKeyboard {
-     [self.firstNameTextField resignFirstResponder];
-     [self.lastNameTextField resignFirstResponder];
-     [self.passwordTextField resignFirstResponder];
-     [self.emailTextField resignFirstResponder];
-     [self.confirmPasswordTextField resignFirstResponder];
-     [self.numberTextField resignFirstResponder];
+    [self.emailTextField resignFirstResponder];
+    [self.firstNameTextField resignFirstResponder];
+    [self.lastNameTextField resignFirstResponder];
+    [self.passwordTextField resignFirstResponder];
+    [self.confirmPasswordTextField resignFirstResponder];
+    [self.numberTextField resignFirstResponder];
+
 }
-
-
-
 @end

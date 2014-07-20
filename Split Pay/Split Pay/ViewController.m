@@ -8,37 +8,31 @@
 
 #import "ViewController.h"
 
-
 @interface ViewController ()<UITextFieldDelegate>
-
-@property (strong, nonatomic) NSString *fbFirstName;
-@property (strong, nonatomic) NSString *fbLastName;
 
 @end
 
 @implementation ViewController
 
--(void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    
-    [FBSession setActiveSession:nil];
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+	// Do any additional setup after loading the view, typically from a nib.
     self.imageView.image = [UIImage imageNamed:@"logo.png"];
-    self.usernameTextField.delegate = self;
-    self.passwordTextField.delegate = self;
-    
     
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]
                                    initWithTarget:self
                                    action:@selector(dismissKeyboard)];
     
     [self.view addGestureRecognizer:tap];
+    
+    self.usernameTextField.delegate = self;
+    self.passwordTextField.delegate = self;
+    
+}
+
+- (IBAction)facebookButtonPressed:(UIButton *)sender {
+    [self performSegueWithIdentifier:@"toFTGsignup" sender:self];
 }
 
 - (IBAction)signUpButtonPressed:(UIButton *)sender {
@@ -76,7 +70,4 @@
     [self.usernameTextField resignFirstResponder];
     [self.passwordTextField resignFirstResponder];
 }
-
-
-
 @end

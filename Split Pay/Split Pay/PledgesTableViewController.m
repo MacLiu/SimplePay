@@ -9,18 +9,16 @@
 #import "PledgesTableViewController.h"
 #import "BillTableViewCell.h"
 
-@interface PledgesTableViewController () <UISearchBarDelegate>
+@interface PledgesTableViewController () <UISearchBarDelegate, launchPaymentView>
 
 @end
 
 @implementation PledgesTableViewController
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    self.searchedNames = [[NSMutableArray alloc] init];
-    
     PFQuery *query = [PFQuery queryWithClassName:@"bill"];
     [query orderByAscending:@"createdAt"];
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
@@ -30,14 +28,10 @@
         }
     }];
     
+    self.searchedNames = [[NSMutableArray alloc] init];
     self.searchBat.delegate = self;
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 #pragma mark - Table view data source
 
@@ -64,21 +58,27 @@
     
     // Configure the cell...
     PFObject *pledge;
-    
     if (self.isFiltered) {
         pledge = [self.searchedNames objectAtIndex:indexPath.row];
     } else {
         pledge = [self.pledges objectAtIndex:indexPath.row];
+
     }
-   
     NSNumber *amount = [pledge objectForKey:@"amount"];
                         NSString *stringAmount = [NSString stringWithFormat:@"$ %@", amount];
     cell.username.text = [pledge objectForKey:@"username"];
     cell.description.text = [pledge objectForKey:@"description"];
     cell.amount.text = stringAmount;
     cell.item.text = [pledge objectForKey:@"item"];
-    
+    cell.delegate = self;
     return cell;
+}
+
+#pragma mark - launchPaymentViewDelegate
+
+-(void)loadNewScreen:(UIViewController *)controller;
+{
+    [self presentViewController:controller animated:YES completion:nil];
 }
 
 

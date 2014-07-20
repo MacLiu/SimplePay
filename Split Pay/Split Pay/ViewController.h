@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-
-@interface ViewController : UIViewController <FBLoginViewDelegate>
+@interface ViewController : UIViewController
 
 //IBOutlets
 @property (strong, nonatomic) IBOutlet UITextField *passwordTextField;

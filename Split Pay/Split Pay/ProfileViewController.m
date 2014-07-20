@@ -25,10 +25,6 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    
-    PFUser *currentUser = [PFUser currentUser];
-    self.nameLabel.text = currentUser.username;
-    
     PFFile *file = [[PFUser currentUser] objectForKey:@"profilePic"];
     if (file.url != nil) {
         NSURL *url = [[NSURL alloc] initWithString:file.url];
@@ -39,6 +35,8 @@
     if (self.pic != nil) {
         self.profilePicture.image = self.pic;
     }
+    
+    self.nameLabel.text = [[PFUser currentUser] objectForKey:@"username"];
     
     NSString *date = @"07/19/14";
     NSString *amount = @"27.99";
@@ -91,6 +89,7 @@
 
 - (IBAction)logoutButtonPressed:(UIButton *)sender {
     [PFUser logOut];
+    [self performSegueWithIdentifier:@"toLogin" sender:self];
 }
 
 - (IBAction)profilePicButtonPressed:(UIButton *)sender {

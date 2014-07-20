@@ -7,12 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+@protocol launchPaymentView <NSObject>
+-(void)loadNewScreen:(UIViewController *) controller;
+@end
+
+
+
 
 @interface BillTableViewCell : UITableViewCell
 @property (strong, nonatomic) IBOutlet UILabel *username;
 @property (strong, nonatomic) IBOutlet UILabel *description;
 @property (strong, nonatomic) IBOutlet UILabel *amount;
 @property (strong, nonatomic) IBOutlet UILabel *item;
+
 - (IBAction)makePaymentButtonPressed:(UIButton *)sender;
+
+@property (nonatomic, retain) id<launchPaymentView> delegate;
 
 @end

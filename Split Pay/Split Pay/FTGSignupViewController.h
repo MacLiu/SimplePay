@@ -18,7 +18,4 @@
 @property (strong, nonatomic) IBOutlet UITextField *emailTextField;
 @property (strong, nonatomic) IBOutlet UITextField *numberTextField;
 
-@property(strong,nonatomic)NSString *firstName;
-@property(strong,nonatomic)NSString *lastName;
-
 @end

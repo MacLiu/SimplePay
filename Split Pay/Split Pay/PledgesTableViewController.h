@@ -9,10 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface PledgesTableViewController : UITableViewController
-
-@property(strong,nonatomic) NSArray *pledges;
-@property (strong,nonatomic) NSMutableArray *searchedNames;
-@property (nonatomic)BOOL isFiltered;
-
 @property (strong, nonatomic) IBOutlet UISearchBar *searchBat;
+
+@property(strong,nonatomic)NSArray *pledges;
+@property(strong,nonatomic)NSMutableArray *searchedNames;
+@property(nonatomic)BOOL isFiltered;
+
 @end

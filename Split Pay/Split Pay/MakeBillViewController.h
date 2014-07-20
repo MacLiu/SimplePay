@@ -12,7 +12,12 @@
 @property (strong, nonatomic) IBOutlet UITextField *itemTextField;
 @property (strong, nonatomic) IBOutlet UITextField *descriptionTextField;
 @property (strong, nonatomic) IBOutlet UITextField *amountTextField;
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) IBOutlet UITextField *tokenTextField;
 
+@property(strong,nonatomic) NSMutableArray *friends;
+
+
 - (IBAction)makeBillButtonPressed:(UIButton *)sender;
+- (IBAction)addFriendButtonPressed:(UIButton *)sender;
 @end

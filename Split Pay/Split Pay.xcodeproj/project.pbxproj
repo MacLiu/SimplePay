@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A33706F197B675F006F5EF3 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A33706E197B675F006F5EF3 /* FacebookSDK.framework */; };
 		294AC6DF197B0799005853C2 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC6DE197B0799005853C2 /* SignupViewController.m */; };
 		294AC6E5197B07C2005853C2 /* BillingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC6E4197B07C2005853C2 /* BillingViewController.m */; };
 		294AC6E8197B07D3005853C2 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC6E7197B07D3005853C2 /* ProfileViewController.m */; };
@@ -26,11 +25,11 @@
 		294AC70C197B4301005853C2 /* MakeBillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC70B197B4300005853C2 /* MakeBillViewController.m */; };
 		294AC70F197B47B8005853C2 /* PledgesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC70E197B47B8005853C2 /* PledgesTableViewController.m */; };
 		294AC712197B4887005853C2 /* BillTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC711197B4887005853C2 /* BillTableViewCell.m */; };
-		294AC780197B52C3005853C2 /* Simplify.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 294AC719197B52C2005853C2 /* Simplify.bundle */; };
-		294AC781197B52C3005853C2 /* Simplify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294AC71A197B52C2005853C2 /* Simplify.framework */; };
-		294AC782197B52C3005853C2 /* simplifylogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 294AC71B197B52C2005853C2 /* simplifylogo.png */; };
-		294AC7C9197B5E5A005853C2 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 294AC7C8197B5E5A005853C2 /* logo.png */; };
-		294AC907197B710B005853C2 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294AC7CB197B710B005853C2 /* FacebookSDK.framework */; };
+		294ACA05197B9C1B005853C2 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 294ACA04197B9C1B005853C2 /* logo.png */; };
+		294ACA07197BA2A6005853C2 /* backarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 294ACA06197BA2A6005853C2 /* backarrow.png */; };
+		296A4E30197BFE9800996F90 /* Simplify.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 296A4E2E197BFE9800996F90 /* Simplify.bundle */; };
+		296A4E31197BFE9800996F90 /* Simplify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 296A4E2F197BFE9800996F90 /* Simplify.framework */; };
+		296A4E33197C003500996F90 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 296A4E32197C003500996F90 /* FacebookSDK.framework */; };
 		29E960EF197ADEED00A756B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E960EE197ADEED00A756B2 /* Foundation.framework */; };
 		29E960F1197ADEED00A756B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E960F0197ADEED00A756B2 /* CoreGraphics.framework */; };
 		29E960F3197ADEED00A756B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E960F2197ADEED00A756B2 /* UIKit.framework */; };
@@ -58,7 +57,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A33706E197B675F006F5EF3 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		294AC6DD197B0799005853C2 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignupViewController.h; path = ../SignupViewController.h; sourceTree = "<group>"; };
 		294AC6DE197B0799005853C2 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignupViewController.m; path = ../SignupViewController.m; sourceTree = "<group>"; };
 		294AC6E3197B07C2005853C2 /* BillingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingViewController.h; sourceTree = "<group>"; };
@@ -83,11 +81,11 @@
 		294AC70E197B47B8005853C2 /* PledgesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PledgesTableViewController.m; sourceTree = "<group>"; };
 		294AC710197B4887005853C2 /* BillTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillTableViewCell.h; sourceTree = "<group>"; };
 		294AC711197B4887005853C2 /* BillTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillTableViewCell.m; sourceTree = "<group>"; };
-		294AC719197B52C2005853C2 /* Simplify.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Simplify.bundle; sourceTree = "<group>"; };
-		294AC71A197B52C2005853C2 /* Simplify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Simplify.framework; sourceTree = "<group>"; };
-		294AC71B197B52C2005853C2 /* simplifylogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simplifylogo.png; sourceTree = "<group>"; };
-		294AC7C8197B5E5A005853C2 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		294AC7CB197B710B005853C2 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		294ACA04197B9C1B005853C2 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		294ACA06197BA2A6005853C2 /* backarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backarrow.png; sourceTree = "<group>"; };
+		296A4E2E197BFE9800996F90 /* Simplify.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Simplify.bundle; sourceTree = "<group>"; };
+		296A4E2F197BFE9800996F90 /* Simplify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Simplify.framework; sourceTree = "<group>"; };
+		296A4E32197C003500996F90 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		29E960EB197ADEED00A756B2 /* Split Pay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Split Pay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E960EE197ADEED00A756B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		29E960F0197ADEED00A756B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,16 +116,15 @@
 				294AC705197B3031005853C2 /* StoreKit.framework in Frameworks */,
 				294AC703197B302B005853C2 /* Social.framework in Frameworks */,
 				294AC701197B3022005853C2 /* Security.framework in Frameworks */,
-				0A33706F197B675F006F5EF3 /* FacebookSDK.framework in Frameworks */,
 				294AC709197B306F005853C2 /* Parse.framework in Frameworks */,
 				294AC6FF197B301B005853C2 /* QuartzCore.framework in Frameworks */,
 				294AC6FD197B3014005853C2 /* MobileCoreServices.framework in Frameworks */,
 				294AC6FB197B300C005853C2 /* libz.1.1.3.dylib in Frameworks */,
-				294AC907197B710B005853C2 /* FacebookSDK.framework in Frameworks */,
+				296A4E33197C003500996F90 /* FacebookSDK.framework in Frameworks */,
 				294AC6F9197B3005005853C2 /* CoreLocation.framework in Frameworks */,
 				29E960F1197ADEED00A756B2 /* CoreGraphics.framework in Frameworks */,
 				294AC6F7197B2FF8005853C2 /* CFNetwork.framework in Frameworks */,
-				294AC781197B52C3005853C2 /* Simplify.framework in Frameworks */,
+				296A4E31197BFE9800996F90 /* Simplify.framework in Frameworks */,
 				294AC6F5197B2FF1005853C2 /* AudioToolbox.framework in Frameworks */,
 				294AC6F3197B2FEA005853C2 /* Accounts.framework in Frameworks */,
 				29E960F3197ADEED00A756B2 /* UIKit.framework in Frameworks */,
@@ -148,16 +145,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		294AC713197B52C2005853C2 /* simplify */ = {
-			isa = PBXGroup;
-			children = (
-				294AC719197B52C2005853C2 /* Simplify.bundle */,
-				294AC71A197B52C2005853C2 /* Simplify.framework */,
-				294AC71B197B52C2005853C2 /* simplifylogo.png */,
-			);
-			path = simplify;
-			sourceTree = "<group>";
-		};
 		29E960E2197ADEED00A756B2 = {
 			isa = PBXGroup;
 			children = (
@@ -180,12 +167,9 @@
 		29E960ED197ADEED00A756B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
-				294AC7CB197B710B005853C2 /* FacebookSDK.framework */,
-=======
-				0A33706E197B675F006F5EF3 /* FacebookSDK.framework */,
->>>>>>> FETCH_HEAD
-				294AC713197B52C2005853C2 /* simplify */,
+				296A4E32197C003500996F90 /* FacebookSDK.framework */,
+				296A4E2E197BFE9800996F90 /* Simplify.bundle */,
+				296A4E2F197BFE9800996F90 /* Simplify.framework */,
 				294AC708197B306F005853C2 /* Parse.framework */,
 				294AC706197B303A005853C2 /* SystemConfiguration.framework */,
 				294AC704197B3031005853C2 /* StoreKit.framework */,
@@ -227,7 +211,8 @@
 				294AC710197B4887005853C2 /* BillTableViewCell.h */,
 				294AC711197B4887005853C2 /* BillTableViewCell.m */,
 				29E96106197ADEED00A756B2 /* Images.xcassets */,
-				294AC7C8197B5E5A005853C2 /* logo.png */,
+				294ACA04197B9C1B005853C2 /* logo.png */,
+				294ACA06197BA2A6005853C2 /* backarrow.png */,
 				29E960F5197ADEED00A756B2 /* Supporting Files */,
 			);
 			path = "Split Pay";
@@ -321,7 +306,6 @@
 			knownRegions = (
 				en,
 				Base,
-				he,
 			);
 			mainGroup = 29E960E2197ADEED00A756B2;
 			productRefGroup = 29E960EC197ADEED00A756B2 /* Products */;
@@ -339,11 +323,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				294ACA07197BA2A6005853C2 /* backarrow.png in Resources */,
+				294ACA05197B9C1B005853C2 /* logo.png in Resources */,
 				29E96107197ADEED00A756B2 /* Images.xcassets in Resources */,
 				29E960F9197ADEED00A756B2 /* InfoPlist.strings in Resources */,
-				294AC7C9197B5E5A005853C2 /* logo.png in Resources */,
-				294AC782197B52C3005853C2 /* simplifylogo.png in Resources */,
-				294AC780197B52C3005853C2 /* Simplify.bundle in Resources */,
+				296A4E30197BFE9800996F90 /* Simplify.bundle in Resources */,
 				29E96102197ADEED00A756B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,20 +483,14 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/simplify",
-					"$(PROJECT_DIR)/FacebookSDK",
-					"$(PROJECT_DIR)/FacebookSDK/FBAudienceNetwork",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Split Pay/Split Pay-Prefix.pch";
 				INFOPLIST_FILE = "Split Pay/Split Pay-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/simplify/vendor/ocmock",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Simplify.framework/Headers";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -525,20 +503,14 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/simplify",
-					"$(PROJECT_DIR)/FacebookSDK",
-					"$(PROJECT_DIR)/FacebookSDK/FBAudienceNetwork",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Split Pay/Split Pay-Prefix.pch";
 				INFOPLIST_FILE = "Split Pay/Split Pay-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/simplify/vendor/ocmock",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Simplify.framework/Headers";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
