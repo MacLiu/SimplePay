@@ -33,6 +33,13 @@
     self.expDateMonthTextField.delegate = self;
     self.expDateYearTextField.delegate = self;
     self.cvv2TextField.delegate = self;
+    
+    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]
+                                   initWithTarget:self
+                                   action:@selector(dismissKeyboard)];
+    
+    [self.view addGestureRecognizer:tap];
 }
 
 - (void)didReceiveMemoryWarning
@@ -61,5 +68,17 @@
     [textField resignFirstResponder];
     return NO;
 }
+
+#pragma mark - Helper Methods
+
+-(void)dismissKeyboard {
+    [self.creditCardNumberTextField resignFirstResponder];
+    [self.cardTypeTextField resignFirstResponder];
+    [self.expDateYearTextField resignFirstResponder];
+    [self.expDateMonthTextField resignFirstResponder];
+    [self.cvv2TextField resignFirstResponder];
+    [self.nameTextField resignFirstResponder];
+}
+
 
 @end

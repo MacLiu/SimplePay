@@ -12,6 +12,7 @@
 @property (strong, nonatomic) IBOutlet UITextField *itemTextField;
 @property (strong, nonatomic) IBOutlet UITextField *descriptionTextField;
 @property (strong, nonatomic) IBOutlet UITextField *amountTextField;
+@property (strong, nonatomic) IBOutlet UITextField *tokenTextField;
 
 - (IBAction)makeBillButtonPressed:(UIButton *)sender;
 @end

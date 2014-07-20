@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController <FBLoginViewDelegate>
 
 //IBOutlets
 @property (strong, nonatomic) IBOutlet UITextField *passwordTextField;
@@ -16,7 +17,6 @@
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
 
 //IBActions
-- (IBAction)facebookButtonPressed:(UIButton *)sender;
 - (IBAction)signUpButtonPressed:(UIButton *)sender;
 - (IBAction)loginButtonPressed:(UIButton *)sender;
 

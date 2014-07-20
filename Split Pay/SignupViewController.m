@@ -7,21 +7,13 @@
 //
 
 #import "SignupViewController.h"
+#import <FacebookSDK/FacebookSDK.h>
 
 @interface SignupViewController () <UITextFieldDelegate>
 
 @end
 
 @implementation SignupViewController
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
 - (void)viewDidLoad
 {
@@ -33,24 +25,13 @@
     self.passwordTextField.delegate = self;
     self.confirmPasswordTextField.delegate = self;
     self.emailTextField.delegate = self;
+    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]
+                                   initWithTarget:self
+                                   action:@selector(dismissKeyboard)];
+    
+    [self.view addGestureRecognizer:tap];
 }
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 - (IBAction)signupButtonPressed:(UIButton *)sender {
     
@@ -91,5 +72,18 @@
     [textField resignFirstResponder];
     return NO;
 }
+
+#pragma mark - Helper Methods
+
+-(void)dismissKeyboard {
+     [self.firstNameTextField resignFirstResponder];
+     [self.lastNameTextField resignFirstResponder];
+     [self.passwordTextField resignFirstResponder];
+     [self.emailTextField resignFirstResponder];
+     [self.confirmPasswordTextField resignFirstResponder];
+     [self.numberTextField resignFirstResponder];
+}
+
+
 
 @end
